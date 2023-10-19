@@ -85,10 +85,3 @@ This project utilizes a fictional telco company dataset that provided home phone
 ### Kaggle Dataset Link
 
 [Telco Customer Churn IBM Dataset](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset?resource=download)
-
-To dive into the project, follow these steps:
-
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/3amory99/Customer-Churn-Data-Analytics-Data-Pipeline.git
