@@ -1,8 +1,6 @@
 # Customer Churn Data Analytics Data Pipeline
 
-Welcome to the Customer Churn Data Analytics Data Pipeline project! This comprehensive Python ETL (Extract, Transform, Load) data engineering endeavor utilizes the power of Apache Airflow and various AWS services, including Glue, S3, and Redshift, to create an end-to-end solution for analyzing customer churn data. The project also seamlessly integrates PowerBI for insightful data visualization.
-
-  ![cover](https://github.com/3amory99/Customer-Churn-Data-Analytics-Data-Pipeline/blob/master/ETL-AWS/cover.png)
+Welcome to the Customer Churn Data Analytics Data Pipeline project! This comprehensive Python ETL (Extract, Transform, Load) data engineering project utilizes the power of Apache Airflow and various AWS services, including Glue, S3, and Redshift, to create an end-to-end solution for analyzing customer churn data. The project also seamlessly integrates PowerBI for insightful data visualization.
 
 ## Project Overview
 
@@ -11,35 +9,21 @@ In this hands-on project, we delve into the intricacies of building and automati
 - **Apache Airflow:**
   - Open-source orchestration and scheduling platform.
   - Task automation for seamless workflow execution.
- 
-  ![dag](https://github.com/3amory99/Customer-Churn-Data-Analytics-Data-Pipeline/blob/master/airflow-dag/Screenshot%20from%202023-11-21%2020-30-39.png)
-
 
 - **AWS Glue:**
   - Utilizes Glue Crawler to infer schemas from an AWS S3 bucket.
   - Creates a comprehensive data catalog for efficient data management.
   - Facilitates data loading into an Amazon Redshift data warehouse.
- 
-  ![glue_1](https://github.com/3amory99/Customer-Churn-Data-Analytics-Data-Pipeline/blob/master/ETL-AWS/Screenshot%20from%202023-11-21%2020-32-05.png)
-
-  ![glue_2](https://github.com/3amory99/Customer-Churn-Data-Analytics-Data-Pipeline/blob/master/ETL-AWS/Screenshot%20from%202023-11-21%2020-09-12.png)
-  
 
 - **AWS S3:**
   - Serves as the source for our data, housing the information to be analyzed.
-  
-  ![s3](https://github.com/3amory99/Customer-Churn-Data-Analytics-Data-Pipeline/blob/master/ETL-AWS/Screenshot%20from%202023-11-21%2020-31-46.png)
 
 - **Amazon Redshift:**
   - Acts as the central data warehouse for storing and managing our processed data.
 
-  ![redshift](https://github.com/3amory99/Customer-Churn-Data-Analytics-Data-Pipeline/blob/master/ETL-AWS/Screenshot%20from%202023-11-21%2020-05-13.png)
-
 - **PowerBI:**
   - Connects seamlessly to the Redshift cluster for dynamic and interactive data visualization.
   - Provides valuable insights into customer churn patterns.
- 
-  ![powerbi](https://github.com/3amory99/Customer-Churn-Data-Analytics-Data-Pipeline/blob/master/power-bi/WhatsApp%20Image%202023-11-21%20at%203.53.58%20PM.jpeg)
 
 ## Project Workflow
 
@@ -71,6 +55,12 @@ In this hands-on project, we delve into the intricacies of building and automati
 
 ## Getting Started
 
+Clone the repository to get started with the project:
+
+```bash
+git clone https://github.com/hansshah445-sketch/Customer-Churn-Data-Analytics-Data-Pipeline.git
+cd Customer-Churn-Data-Analytics-Data-Pipeline
+```
 
 ## Dataset
 
